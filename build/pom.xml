@@ -11,10 +11,7 @@
         <module>../startApp</module>
         <module>../mr-231</module>
         <module>../mr-231-3</module>
-<<<<<<< HEAD
         <module>../testModule/</module>
-=======
->>>>>>> ba72fc1c7ecbedfd8c4dc7efe2f4f40b57f5ea5d
     </modules>
 
     <build>
