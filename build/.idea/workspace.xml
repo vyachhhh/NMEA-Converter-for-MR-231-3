@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="17592a85-f40b-4e39-a83a-3f9cf1dec500" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mr-231-3/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mr-231-3/src/main/java/org/example/searadar/mr2313/convert/Mr2313Converter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mr-231-3/src/main/java/org/example/searadar/mr2313/message/Mr2313TrackedTargetMessage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mr-231-3/src/main/java/org/example/searadar/mr2313/station/Mr2313StationType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mr-231-3/target/classes/org/example/searadar/mr2313/convert/Mr2313Converter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mr-231-3/target/classes/org/example/searadar/mr2313/message/Mr2313TrackedTargetMessage.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mr-231-3/target/classes/org/example/searadar/mr2313/station/Mr2313StationType.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mr-231/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mr-231/src/main/java/org/example/searadar/mr231/convert/Mr231Converter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mr-231/src/main/java/org/example/searadar/mr231/station/Mr231StationType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mr-231/src/main/java/ru/oogis/hydra/api/ExchangeConverter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mr-231/src/main/java/ru/oogis/hydra/api/InteractionManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mr-231/src/main/java/ru/oogis/hydra/api/MessageSourceType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mr-231/src/main/java/ru/oogis/hydra/config/ActivationMethod.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mr-231/src/main/java/ru/oogis/hydra/config/ChannelConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mr-231/src/main/java/ru/oogis/hydra/config/ChannelState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mr-231/src/main/java/ru/oogis/hydra/config/ChannelStateInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mr-231/src/main/java/ru/oogis/hydra/config/ConfigElement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mr-231/src/main/java/ru/oogis/hydra/config/ConfigElementWithParameters.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mr-231/src/main/java/ru/oogis/hydra/config/ConfigParameter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mr-231/src/main/java/ru/oogis/hydra/config/HydraConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mr-231/src/main/java/ru/oogis/hydra/config/ManagerConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mr-231/src/main/java/ru/oogis/hydra/config/sort/AbstractConfigElementComparator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mr-231/src/main/java/ru/oogis/hydra/config/sort/ChannelConfigDisplayNameComparator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mr-231/src/main/java/ru/oogis/hydra/config/sort/ChannelStartupComparator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mr-231/src/main/java/ru/oogis/hydra/config/sort/ConfigElementDisplayNameComparator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mr-231/src/main/java/ru/oogis/hydra/csv/AbstractCsvDescriptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mr-231/src/main/java/ru/oogis/hydra/csv/CsvDescriptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mr-231/src/main/java/ru/oogis/hydra/csv/CsvDescriptorFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mr-231/src/main/java/ru/oogis/hydra/csv/UnknownCsvDatasetIdException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mr-231/src/main/java/ru/oogis/hydra/exception/ChannelNotFoundException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mr-231/src/main/java/ru/oogis/hydra/exception/HydraException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mr-231/src/main/java/ru/oogis/hydra/impl/AbstractInteractionManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mr-231/src/main/java/ru/oogis/hydra/impl/CamelContextHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mr-231/src/main/java/ru/oogis/hydra/jms/JMSendProcessor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mr-231/src/main/java/ru/oogis/hydra/jms/ManagerDeploymentEvent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mr-231/src/main/java/ru/oogis/hydra/logging/ErrorHandlerBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mr-231/src/main/java/ru/oogis/hydra/logging/EventLogCleaner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mr-231/src/main/java/ru/oogis/hydra/logging/EventLogCleanerBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mr-231/src/main/java/ru/oogis/hydra/logging/HydraLogger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mr-231/src/main/java/ru/oogis/hydra/logging/LogHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mr-231/src/main/java/ru/oogis/hydra/util/GeoHelper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mr-231/src/main/java/ru/oogis/hydra/util/HydraHelper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mr-231/src/main/java/ru/oogis/hydra/util/ManagerConfigGenerator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mr-231/src/main/java/ru/oogis/hydra/util/MessageKey.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mr-231/src/main/java/ru/oogis/hydra/util/Messages.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mr-231/src/main/java/ru/oogis/hydra/util/RouteTemplateHelper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mr-231/src/main/java/ru/oogis/hydra/util/TargetMovementElements.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mr-231/src/main/java/ru/oogis/hydra/util/TargetMovementElementsCalculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mr-231/src/main/java/ru/oogis/hydra/validate/PayloadValidator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mr-231/src/main/java/ru/oogis/hydra/validate/PayloadValidatorFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mr-231/src/main/java/ru/oogis/hydra/validate/nmea/NMEACRCValidator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mr-231/src/main/java/ru/oogis/hydra/validate/nmea/NMEACRCValidatorFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mr-231/src/main/java/ru/oogis/hydra/validate/nmea/NMEAValidator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mr-231/src/main/java/ru/oogis/hydra/validate/nmea/NMEAValidatorFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mr-231/src/main/java/ru/oogis/searadar/api/convert/SearadarExchangeConverter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mr-231/src/main/java/ru/oogis/searadar/api/message/InvalidMessage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mr-231/src/main/java/ru/oogis/searadar/api/message/RadarSystemDataMessage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mr-231/src/main/java/ru/oogis/searadar/api/message/SearadarStationMessage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mr-231/src/main/java/ru/oogis/searadar/api/message/TrackedTargetMessage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mr-231/src/main/java/ru/oogis/searadar/api/message/WaterSpeedHeadingMessage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mr-231/src/main/java/ru/oogis/searadar/api/station/AbstractStationType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mr-231/src/main/java/ru/oogis/searadar/api/station/SearadarStationType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mr-231/src/main/java/ru/oogis/searadar/api/types/IFF.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mr-231/src/main/java/ru/oogis/searadar/api/types/TargetStatus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mr-231/src/main/java/ru/oogis/searadar/api/types/TargetType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mr-231/src/main/resources/META-INF/services/org.example.searadar.api.station.SearadarStationType" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mr-231/target/classes/META-INF/services/org.example.searadar.api.station.SearadarStationType" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mr-231/target/classes/org/example/searadar/mr231/convert/Mr231Converter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mr-231/target/classes/org/example/searadar/mr231/station/Mr231StationType.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mr-231/target/classes/ru/oogis/hydra/api/ExchangeConverter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mr-231/target/classes/ru/oogis/hydra/api/InteractionManager.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mr-231/target/classes/ru/oogis/hydra/api/MessageSourceType.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mr-231/target/classes/ru/oogis/hydra/config/ActivationMethod.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mr-231/target/classes/ru/oogis/hydra/config/ChannelConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mr-231/target/classes/ru/oogis/hydra/config/ChannelState.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mr-231/target/classes/ru/oogis/hydra/config/ChannelStateInfo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mr-231/target/classes/ru/oogis/hydra/config/ConfigElement.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mr-231/target/classes/ru/oogis/hydra/config/ConfigElementWithParameters.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mr-231/target/classes/ru/oogis/hydra/config/ConfigParameter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mr-231/target/classes/ru/oogis/hydra/config/HydraConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mr-231/target/classes/ru/oogis/hydra/config/ManagerConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mr-231/target/classes/ru/oogis/hydra/config/sort/AbstractConfigElementComparator.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mr-231/target/classes/ru/oogis/hydra/config/sort/ChannelConfigDisplayNameComparator.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mr-231/target/classes/ru/oogis/hydra/config/sort/ChannelStartupComparator.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mr-231/target/classes/ru/oogis/hydra/config/sort/ConfigElementDisplayNameComparator.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mr-231/target/classes/ru/oogis/hydra/csv/AbstractCsvDescriptor.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mr-231/target/classes/ru/oogis/hydra/csv/CsvDescriptor.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mr-231/target/classes/ru/oogis/hydra/csv/CsvDescriptorFactory.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mr-231/target/classes/ru/oogis/hydra/csv/UnknownCsvDatasetIdException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mr-231/target/classes/ru/oogis/hydra/exception/ChannelNotFoundException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mr-231/target/classes/ru/oogis/hydra/exception/HydraException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mr-231/target/classes/ru/oogis/hydra/impl/AbstractInteractionManager$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mr-231/target/classes/ru/oogis/hydra/impl/AbstractInteractionManager$ChannelDeadLetterHandler.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mr-231/target/classes/ru/oogis/hydra/impl/AbstractInteractionManager$ChannelsSupervisor.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mr-231/target/classes/ru/oogis/hydra/impl/AbstractInteractionManager$ChannelsSupervisorRouteBuilder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mr-231/target/classes/ru/oogis/hydra/impl/AbstractInteractionManager$StorageCleanRouteBuilder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mr-231/target/classes/ru/oogis/hydra/impl/AbstractInteractionManager.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mr-231/target/classes/ru/oogis/hydra/impl/CamelContextHandler$ChannelDeadLetterHandler.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mr-231/target/classes/ru/oogis/hydra/impl/CamelContextHandler.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mr-231/target/classes/ru/oogis/hydra/jms/JMSendProcessor.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mr-231/target/classes/ru/oogis/hydra/jms/ManagerDeploymentEvent.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mr-231/target/classes/ru/oogis/hydra/logging/ErrorHandlerBuilder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mr-231/target/classes/ru/oogis/hydra/logging/EventLogCleaner.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mr-231/target/classes/ru/oogis/hydra/logging/EventLogCleanerBuilder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mr-231/target/classes/ru/oogis/hydra/logging/HydraLogger.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mr-231/target/classes/ru/oogis/hydra/logging/LogHandler.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mr-231/target/classes/ru/oogis/hydra/util/GeoHelper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mr-231/target/classes/ru/oogis/hydra/util/HydraHelper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mr-231/target/classes/ru/oogis/hydra/util/ManagerConfigGenerator.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mr-231/target/classes/ru/oogis/hydra/util/MessageKey.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mr-231/target/classes/ru/oogis/hydra/util/Messages.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mr-231/target/classes/ru/oogis/hydra/util/RouteTemplateHelper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mr-231/target/classes/ru/oogis/hydra/util/TargetMovementElements.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mr-231/target/classes/ru/oogis/hydra/util/TargetMovementElementsCalculator.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mr-231/target/classes/ru/oogis/hydra/validate/PayloadValidator.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mr-231/target/classes/ru/oogis/hydra/validate/PayloadValidatorFactory.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mr-231/target/classes/ru/oogis/hydra/validate/nmea/NMEACRCValidator.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mr-231/target/classes/ru/oogis/hydra/validate/nmea/NMEACRCValidatorFactory.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mr-231/target/classes/ru/oogis/hydra/validate/nmea/NMEAValidator.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mr-231/target/classes/ru/oogis/hydra/validate/nmea/NMEAValidatorFactory.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mr-231/target/classes/ru/oogis/searadar/api/convert/SearadarExchangeConverter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mr-231/target/classes/ru/oogis/searadar/api/message/InvalidMessage.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mr-231/target/classes/ru/oogis/searadar/api/message/RadarSystemDataMessage.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mr-231/target/classes/ru/oogis/searadar/api/message/SearadarStationMessage.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mr-231/target/classes/ru/oogis/searadar/api/message/TrackedTargetMessage.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mr-231/target/classes/ru/oogis/searadar/api/message/WaterSpeedHeadingMessage.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mr-231/target/classes/ru/oogis/searadar/api/station/AbstractStationType.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mr-231/target/classes/ru/oogis/searadar/api/station/SearadarStationType.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mr-231/target/classes/ru/oogis/searadar/api/types/IFF.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mr-231/target/classes/ru/oogis/searadar/api/types/TargetStatus.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mr-231/target/classes/ru/oogis/searadar/api/types/TargetType.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../startApp/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../startApp/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../startApp/src/main/java/org/example/App.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7
+}</component>
+  <component name="ProjectId" id="2bInU4QBSdDgW7tdplIYSY81WIw" />
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.App.executor": "Run",
+    "Application.Unnamed.executor": "Run",
+    "Maven.build [clean,install].executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "jdk.selected.JAVA_MODULE": "1.8 (2)",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/I'm/Desktop/Практическое задание парсер МР-231-3/Code/build",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "preferences.lookFeel",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RunManager" selected="Application.App">
+    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.App" />
+      <module name="startApp" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Unnamed" type="Application" factoryName="Application" nameIsGenerated="true">
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.Unnamed" />
+      <item itemvalue="Application.App" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.App" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="jdk-1.8.0_392-temurin-1.8.0_392-4caba194b151-6335d3f8" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="17592a85-f40b-4e39-a83a-3f9cf1dec500" name="Changes" comment="" />
+      <created>1705911473798</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1705911473798</updated>
+      <workItem from="1705911476607" duration="2562000" />
+      <workItem from="1705915063167" duration="628000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
