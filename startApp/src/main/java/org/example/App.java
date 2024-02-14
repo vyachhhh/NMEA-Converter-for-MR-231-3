@@ -58,9 +58,17 @@ public class App {
         searadarMessages = converter.convert(mr231_VHW);
         searadarMessages.forEach(System.out::println);
 
+<<<<<<< HEAD
         searadarMessages = converter.convert(mr231_RSD);
         searadarMessages.forEach(System.out::println);
         //Вывод RSD-сообщения об ошибке
+=======
+
+        //Вывод RSD-сообщения об ошибке
+
+        searadarMessages = converter.convert(mr231_RSD);
+        searadarMessages.forEach(System.out::println);
+>>>>>>> ba72fc1c7ecbedfd8c4dc7efe2f4f40b57f5ea5d
         for (SearadarStationMessage ssm : searadarMessages){
             InvalidMessage m = (InvalidMessage) ssm;
             System.out.println(m.getInfoMsg() + "\n");

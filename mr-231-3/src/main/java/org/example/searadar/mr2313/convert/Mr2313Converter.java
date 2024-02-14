@@ -100,8 +100,13 @@ public class Mr2313Converter implements SearadarExchangeConverter{
     private TrackedTargetMessage getTTM() {
 
         Mr2313TrackedTargetMessage ttm = new Mr2313TrackedTargetMessage();
+<<<<<<< HEAD
 
         Long msgRecTimeMillis = System.currentTimeMillis();
+=======
+        Long msgRecTimeMillis = System.currentTimeMillis();
+
+>>>>>>> ba72fc1c7ecbedfd8c4dc7efe2f4f40b57f5ea5d
         ttm.setMsgTime(msgRecTimeMillis);
         TargetStatus status = TargetStatus.UNRELIABLE_DATA;
         IFF iff = IFF.UNKNOWN;
