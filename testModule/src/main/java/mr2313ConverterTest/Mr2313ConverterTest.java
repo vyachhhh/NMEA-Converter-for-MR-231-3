@@ -1,7 +1,6 @@
 package mr2313ConverterTest;
 
 
-import com.sun.rmi.rmid.ExecOptionPermission;
 import org.example.searadar.mr2313.convert.Mr2313Converter;
 import org.example.searadar.mr2313.message.Mr2313TrackedTargetMessage;
 import org.example.searadar.mr2313.station.Mr2313StationType;
