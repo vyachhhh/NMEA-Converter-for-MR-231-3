@@ -12,6 +12,7 @@
         <module>../mr-231</module>
         <module>../mr-231-3</module>
         <module>../testModule/</module>
+        <module>../javafxApp</module>
     </modules>
 
     <build>

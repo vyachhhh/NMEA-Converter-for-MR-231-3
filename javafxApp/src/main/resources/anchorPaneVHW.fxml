@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.controllers.AnchorPaneController">
+    <children>
+        <Label layoutX="14.0" layoutY="14.0" text="Course" />
+        <Label layoutX="14.0" layoutY="44.0" text="Course Attr" />
+        <Label layoutX="14.0" layoutY="74.0" text="Speed" />
+        <Label layoutX="14.0" layoutY="104.0" text="Speed Unit" />
+        <TextField fx:id="textFieldCourse" editable="false" layoutX="110.0" layoutY="10.0" />
+        <TextField fx:id="textFieldCourseAttr" editable="false" layoutX="110.0" layoutY="40.0" />
+        <TextField fx:id="textFieldSpeed" editable="false" layoutX="110.0" layoutY="70.0" />
+        <TextField fx:id="textFieldSpeedUnit" editable="false" layoutX="110.0" layoutY="100.0" />
+    </children>
+</AnchorPane>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane xmlns="http://javafx.com/javafx"
+            xmlns:fx="http://javafx.com/fxml"
+            fx:controller="org.example.controllers.AnchorPaneController"
+            prefHeight="400.0" prefWidth="600.0">
+    <children>
+        <Label layoutX="14.0" layoutY="14.0" text="Target Number" />
+        <Label layoutX="14.0" layoutY="44.0" text="Distance" />
+        <Label layoutX="14.0" layoutY="74.0" text="Bearing" />
+        <Label layoutX="14.0" layoutY="104.0" text="Course" />
+        <Label layoutX="14.0" layoutY="134.0" text="Speed" />
+        <Label layoutX="14.0" layoutY="164.0" text="Type" />
+        <Label layoutX="14.0" layoutY="194.0" text="Status" />
+        <Label layoutX="14.0" layoutY="224.0" text="IFF" />
+        <Label layoutX="14.0" layoutY="254.0" text="Interval" />
+        <TextField fx:id="textFieldTargetNumber" editable="false" layoutX="110.0" layoutY="10.0" />
+        <TextField fx:id="textFieldDistance" editable="false" layoutX="110.0" layoutY="40.0" />
+        <TextField fx:id="textFieldBearing" editable="false" layoutX="110.0" layoutY="70.0" />
+        <TextField fx:id="textFieldCourse" editable="false" layoutX="110.0" layoutY="100.0" />
+        <TextField fx:id="textFieldSpeed" editable="false" layoutX="110.0" layoutY="130.0" />
+        <TextField fx:id="textFieldType" editable="false" layoutX="110.0" layoutY="160.0" />
+        <TextField fx:id="textFieldStatus" editable="false" layoutX="110.0" layoutY="190.0" />
+        <TextField fx:id="textFieldIff" editable="false" layoutX="110.0" layoutY="220.0" />
+        <TextField fx:id="textFieldInterval" editable="false" layoutX="110.0" layoutY="250.0" />
+    </children>
+</AnchorPane>
