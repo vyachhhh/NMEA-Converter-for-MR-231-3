@@ -16,12 +16,8 @@ public class ConnectionString {
      * @throws SQLException
      */
     public static Connection getConnection() throws SQLException{
-        //String URL = "jdbc:sqlserver://MINT;databaseName=NMEA;encrypt=false;";
-        //String USER = "vyach";
-        //String PASSWORD = "1";
-        //return DriverManager.getConnection(URL,USER,PASSWORD);
-        return DriverManager.getConnection("jdbc:sqlserver://localhost:1433;databaseName=NMEA;" +
-                "encrypt=false;" +
-                "user=vyach;password=1;");
+        return DriverManager.getConnection("jdbc:sqlserver://mssql:1433;databaseName=NMEA;" +
+                "trustServerCertificate=true;" +
+                "user=sa;password=P@ssw0rd;");
     }
 }

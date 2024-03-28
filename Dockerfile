@@ -1,19 +1,22 @@
 # syntax=docker/dockerfile:1
-FROM openjdk:8-jre
-#FROM eclipse-temurin:8-jre-jammy AS final
+FROM maven:3.9.6-amazoncorretto-8-debian as app
 
-#RUN apt-get install openjfx
-#RUN apt-get update && apt-get install -y default-jdk
-#RUN apt-get update && apt-get install -y x11-apps
-#ENV DISPLAY=127.0.0.1:0
-RUN mkdir /app
+ENV DISPLAY=host.docker.internal:0.0
 
-#COPY startApp/target/startApp-1.0-SNAPSHOT-jar-with-dependencies.jar /app/app.jar
-COPY build/javafxApp.jar /app/app.jar
+COPY / /app/
 
-WORKDIR /app
+WORKDIR /app/build
+RUN mvn clean package
 
-ENTRYPOINT ["java","-jar","app.jar"]
-#ENTRYPOINT ["java","org.example.App"]
+RUN apt-get update && apt-get install -y \
+    curl \
+    gnupg2 \
+    openjfx
 
-#CMD ["java", "-Dprism.order=sw", "-jar", "javafxApp.jar"]
+WORKDIR ../javafxApp/target
+ENTRYPOINT ["java","-Dprism.order=sw","-jar","javafxApp-1.0-SNAPSHOT-jar-with-dependencies.jar"]
+
+#    libx11-dev \
+#    libx11-6 \
+#    libgl1-mesa-glx \
+#    libgtk-3-0 \

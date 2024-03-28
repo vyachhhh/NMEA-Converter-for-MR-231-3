@@ -4,6 +4,9 @@
 # For more help, visit the .dockerignore file reference guide at
 # https://docs.docker.com/go/build-context-dockerignore/
 
+**/.ldf
+**/.mdf
+**/.ndf
 **/.classpath
 **/.dockerignore
 **/.env
@@ -22,7 +25,7 @@
 **/charts
 **/docker-compose*
 **/compose*
-#**/target
+**/target
 **/Dockerfile*
 **/node_modules
 **/npm-debug.log

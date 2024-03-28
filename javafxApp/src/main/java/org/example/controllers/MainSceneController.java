@@ -40,7 +40,7 @@ public class MainSceneController implements Initializable {
         columnRecTime.setCellValueFactory(new PropertyValueFactory<>("recTime"));
         columnTime.setCellValueFactory(new PropertyValueFactory<>("time"));
         columnMessage.setCellValueFactory(new PropertyValueFactory<>("message"));
-
+        
         loadData();
     }
     @FXML
@@ -88,7 +88,7 @@ public class MainSceneController implements Initializable {
     private void btnConvertMsgClicked(){
         try{
             FXMLLoader loader = new FXMLLoader();
-            loader.setLocation(getClass().getResource("/convertMessageScene.fxml"));
+            loader.setLocation(getClass().getResource("/fxml/convertMessageScene.fxml"));
             Parent root = loader.load();
             Stage convertMessageStage = new Stage();
 
@@ -121,7 +121,7 @@ public class MainSceneController implements Initializable {
     private void tableViewNmeaSelectionChanged(NmeaMessage message){
         selectedIndex = tableViewNmea.getSelectionModel().getSelectedIndex();
         try {
-            String pathToPane = String.format("/anchorPane%s.fxml",message.getFormat());
+            String pathToPane = String.format("/fxml/anchorPane%s.fxml",message.getFormat());
             FXMLLoader loader = new FXMLLoader(getClass().getResource(pathToPane));
             textFieldFormat.setText(message.getFormat());
 

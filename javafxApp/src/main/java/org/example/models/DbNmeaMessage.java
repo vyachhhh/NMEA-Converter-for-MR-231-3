@@ -39,10 +39,8 @@ public class DbNmeaMessage {
                         resultSet.getLong("MessageTime"),
                         resultSet.getString("Message")));
             }
-        } catch (SQLException e){
-            Alert alert = new Alert(Alert.AlertType.INFORMATION);
-            alert.setContentText(e.toString());
-            alert.showAndWait();
+        } catch (SQLException e) {
+            e.printStackTrace();
         }
         conn.close();
         return list;
@@ -68,9 +66,7 @@ public class DbNmeaMessage {
             }
 
         } catch (SQLException e){
-            Alert alert = new Alert(Alert.AlertType.INFORMATION);
-            alert.setContentText(e.toString());
-            alert.showAndWait();
+            e.printStackTrace();
         }
         conn.close();
         return format;
@@ -155,9 +151,7 @@ public class DbNmeaMessage {
             }
 
         } catch (SQLException e){
-            Alert alert = new Alert(Alert.AlertType.INFORMATION);
-            alert.setContentText(e.toString());
-            alert.showAndWait();
+            e.printStackTrace();
         }
         conn.close();
         return messageInfo;
@@ -288,9 +282,7 @@ public class DbNmeaMessage {
             statement.execute(query);
 
         } catch (SQLException e){
-            Alert alert = new Alert(Alert.AlertType.INFORMATION);
-            alert.setContentText(e.toString());
-            alert.showAndWait();
+            e.printStackTrace();
         }
         conn.close();
     }

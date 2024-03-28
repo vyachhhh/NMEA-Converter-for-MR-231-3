@@ -42,7 +42,7 @@ public class ConvertMessageScene {
         try {
             DbNmeaMessage.addMessage(textFieldMessage.getText());
             FXMLLoader loader = new FXMLLoader();
-            loader.setLocation(getClass().getResource("/mainScene.fxml"));
+            loader.setLocation(getClass().getResource("/fxml/mainScene.fxml"));
             Parent root = loader.load();
 
             // Метод MainStage.setMainScene() здесь необходим для перезагрузки основной сцены,

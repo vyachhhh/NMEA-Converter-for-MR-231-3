@@ -8,17 +8,46 @@
 # database or a cache. For examples, see the Awesome Compose repository:
 # https://github.com/docker/awesome-compose
 services:
-  db:
+  mssql:
     image: mcr.microsoft.com/mssql/server:2019-latest
+    restart: always
+    container_name: mssql
+    user: root
     environment:
-      SA_PASSWORD: "1"
+      MSSQL_USER: "sa"
+      MSSQL_SA_PASSWORD: "P@ssw0rd"
       ACCEPT_EULA: "Y"
+      MSSQL_DATA_DIR: "/var/opt/mssql/data"
+      MSSQL_DUMP_DIR: "/var/opt/mssql/dump"
+    volumes:
+      - ./mssql:/var/opt/mssql/data
     ports:
-      - "1433:1433"
-  app:
-    build: build
+      - "1438:1438"
+    networks:
+      - local
+    healthcheck:
+      test: [ "CMD-SHELL", "/var/opt/mssql/data/entrypoint.sh" ]
+      interval: 10s
+      retries: 5
+      timeout: 5s
+    #command: bash -c /var/opt/mssql/data/entrypoint.sh
+  nmea:
+    image: nmea:latest
+    container_name: nmea
+    environment:
+      - DISPLAY=host.docker.internal:0.0
+    build: .
     depends_on:
-      - db
+      - mssql
+    networks:
+      - local
+    ports:
+      - "8081:8081"
+networks:
+  local:
+    driver: bridge
+#volumes:
+#  db-data:
 #  server:
 #    build:
 #      context: .

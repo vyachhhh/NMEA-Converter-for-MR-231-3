@@ -18,7 +18,7 @@ public class JavaFxApp extends Application{
     public void start(Stage primaryStage) throws IOException {
 
         FXMLLoader loader = new FXMLLoader();
-        loader.setLocation(getClass().getResource("/mainScene.fxml"));
+        loader.setLocation(getClass().getResource("/fxml/mainScene.fxml"));
 
         Parent root = loader.load();
         MainStage.setMainStage(primaryStage);
