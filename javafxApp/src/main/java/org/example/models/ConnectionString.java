@@ -16,7 +16,7 @@ public class ConnectionString {
      * @throws SQLException
      */
     public static Connection getConnection() throws SQLException{
-        return DriverManager.getConnection("jdbc:sqlserver://172.17.0.2:1433;databaseName=NMEA;" +
+        return DriverManager.getConnection("jdbc:sqlserver://mssql:1433;databaseName=NMEA;" +
                 "trustServerCertificate=true;" +
                 "user=sa;password=P@ssw0rd;");
     }

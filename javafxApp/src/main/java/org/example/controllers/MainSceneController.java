@@ -110,6 +110,7 @@ public class MainSceneController implements Initializable {
     private void btnDeleteMsgClicked() throws SQLException {
         DbNmeaMessage.deleteMessage(list.get(selectedIndex).getId());
         loadData();
+        anchorPane.getChildren().setAll();
     }
 
     /**
